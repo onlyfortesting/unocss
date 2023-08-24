@@ -35,7 +35,7 @@ export function variantBreakpoints(): VariantObject {
         if (m === 'container')
           continue
 
-        const isLtPrefix = pre.startsWith('lt-') || pre.startsWith('<') || pre.startsWith('max')
+        const isLtPrefix = pre.startsWith('lt-') || pre.startsWith('<') || pre.startsWith('max-')
         const isAtPrefix = pre.startsWith('at-') || pre.startsWith('~')
 
         let order = 1000 // parseInt(size)
